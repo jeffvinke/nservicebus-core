@@ -21,7 +21,7 @@ namespace NServiceBus_Core.Controllers
         [Route("save")]
         public async Task<ActionResult> Save(SampleSaveModel model)
         {
-            model.Id = Guid.NewGuid();
+            model.Id = model.Id == Guid.Empty ? Guid.NewGuid(): model.Id;
 
             await _messageSession.SendLocal(new SampleCommand { Id = model.Id, SomeData = model.SampleData });
 
@@ -29,7 +29,7 @@ namespace NServiceBus_Core.Controllers
         }
         [HttpGet]
         [Route("testget")]
-        public async Task<string> Test()
+        public async Task<string> GetSomeValues()
         {
             return "testGet";
         }

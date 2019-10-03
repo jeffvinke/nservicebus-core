@@ -3,3 +3,5 @@
 **/bin/[Rr]elease
 **/obj
 .vs
+.vscode
+**/TestResults/

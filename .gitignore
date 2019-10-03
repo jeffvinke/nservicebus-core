@@ -3,3 +3,4 @@
 **/bin/[Rr]elease
 **/obj
 .vs
+.DS_Store

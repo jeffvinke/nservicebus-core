@@ -27,5 +27,11 @@ namespace NServiceBus_Core.Controllers
 
             return Ok(model);
         }
+        [HttpGet]
+        [Route("testget")]
+        public async Task<string> Test()
+        {
+            return "testGet";
+        }
     }
 }

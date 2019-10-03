@@ -36,7 +36,7 @@ namespace NServiceBus_Core
 
             var endpointConfig = new EndpointConfiguration("NserviceBusCore");
             var transport = endpointConfig.UseTransport<LearningTransport>();
-
+            transport.StorageDirectory(".");
             var routing = transport.Routing();
             //routing.RouteToEndpoint(
             //    assembly: typeof(NServiceBusCore.Messages).Assembly,

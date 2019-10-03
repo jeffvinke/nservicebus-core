@@ -1,4 +1,5 @@
 .learningtransport
-NServiceBusCore/bin/[Dd]ebug
-NServiceBusCore/bin/[Rr]lease
+**/bin/[Dd]ebug
+**/bin/[Rr]elease
+**/obj
 .vs

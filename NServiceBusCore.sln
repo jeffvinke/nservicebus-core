@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusCore", "NService
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "NServiceBusCore.Messages", "NServiceBusCore.Messages\NServiceBusCore.Messages.shproj", "{052B1CE0-43D4-4DC5-99E6-1C545ADBA25A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusCore.Test", "NServiceBusCore.Test\NServiceBusCore.Test.csproj", "{F42128ED-A4D7-471C-A3B9-AA0870CF907C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,5 +17,9 @@ Global
 		{D08FDB27-C51C-4618-8649-6A3BC5A5BBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08FDB27-C51C-4618-8649-6A3BC5A5BBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08FDB27-C51C-4618-8649-6A3BC5A5BBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42128ED-A4D7-471C-A3B9-AA0870CF907C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42128ED-A4D7-471C-A3B9-AA0870CF907C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42128ED-A4D7-471C-A3B9-AA0870CF907C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42128ED-A4D7-471C-A3B9-AA0870CF907C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

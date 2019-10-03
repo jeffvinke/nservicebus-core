@@ -1,0 +1,9 @@
+output
+out
+NServiceBusCore/bin
+NServiceBusCore/bin/**/*
+NServiceBusCore/obj
+NServiceBusCore/obj/**/*
+.git
+.learningtransport
+.vs

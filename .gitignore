@@ -1,0 +1,5 @@
+.learningtransport
+**/bin/[Dd]ebug
+**/bin/[Rr]elease
+**/obj
+.vs
